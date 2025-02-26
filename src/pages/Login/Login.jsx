@@ -8,7 +8,7 @@ import { ERROR_MESSAGES } from "../../utils/messages";
 import ResetPasswordDialog from "../../components/Dialog/ResetPasswordDialog";
 import BotLogo from "../../assets/ChimeraLogoBlack.png";
 import wolverine from "../../assets/Chim_Login.png";
-import "./login.css";
+import "./Login.css";
 import ApiResponseDialog from "../../components/Dialog/ApiResponseDialog";
 const LoginScreen = () => {
   const navigate = useNavigate();
