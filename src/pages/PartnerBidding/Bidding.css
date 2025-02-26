@@ -1,0 +1,7 @@
+.custom-toast-container {
+    position: fixed;
+    top: 100px;
+    right: 10px; /* Adjust as needed */
+    margin-top: 10px;
+    z-index: 9999;
+  }

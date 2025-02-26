@@ -1,0 +1,149 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" },
+    { "id": 2, "name": "Jane Smith", "email": "jane@example.com" }
+  ],
+   "notifications":[
+  {
+    "id": 1,
+    "message": "New user registration",
+    "timestamp": "2025-02-10T10:30:00",
+    "read": false
+  },
+  {
+    "id": 2,
+    "message": "System update completed",
+    "timestamp": "2025-02-10T09:15:00",
+    "read": false
+  },
+  {
+    "id": 3,
+    "message": "New order received",
+    "timestamp": "2025-02-10T08:45:00",
+    "read": false
+  },
+  {
+    "id": 4,
+    "message": "New user registration",
+    "timestamp": "2025-02-09T10:30:00",
+    "read": true
+  },
+  {
+    "id": 5,
+    "message": "System update completed",
+    "timestamp": "2025-02-09T09:15:00",
+    "read": true
+  },
+  {
+    "id": 6,
+    "message": "New order received",
+    "timestamp": "2025-02-09T08:45:00",
+    "read": true
+  }
+   ],
+  "myWorkData":[
+    {
+    "id": 1,
+    "show": "Odyssey S1E11",
+    "shotName": "T014_P9 FR626410 42c_0130_fgo1206_456789012345",
+    "task": "Paint",
+    "status": "Done",
+    "wtd": "100%",
+    "description": "Lorem ipsum, dolor sit amet, lorem ipsum sit",
+    "botDue": "21-Feb-25",
+    "estDue": "15-Feb-25",
+    "estPds": 8,
+    "partner": "Yuvan",
+    "partnerList": ["Yuvan", "Dhruv", "Sanskar", "Rahul"]
+    },
+    {
+    "id": 2,
+    "show": "Vortex S2E02",
+    "shotName": "T013_P8 FR629500 42c_0170_fgo1450_2345678901234",
+    "task": "Comp",
+    "status": "Expired",
+    "wtd": "100%",
+    "description": "Lorem ipsum, amet, dolor ipsum sit",
+    "botDue": "28-Feb-25",
+    "estDue": "07-Feb-25",
+    "estPds": 10,
+    "partner": "Dhruv",
+    "partnerList": ["Yuvan", "Dhruv", "Sanskar", "Rahul"]
+    },
+    {
+    "id": 3,
+    "show": "Starlight S1E15",
+    "shotName": "T012_P4 FR622490 42e_0150_fgo1208_987654321012",
+    "task": "Roto",
+    "status": "Pending",
+    "wtd": "100%",
+    "description": "Lorem ipsum, lorem ipsum sit amet",
+    "botDue": "12-Feb-25",
+    "estDue": "30-Feb-25",
+    "estPds": 6,
+    "partner": "Sanskar",
+    "partnerList": ["Yuvan", "Dhruv", "Sanskar", "Rahul"]
+    },
+    {
+    "id": 4,
+    "show": "Starlight S1E16",
+    "shotName": "T012_P4 FR622490 42e_0150_fgo1208_987654321014",
+    "task": "RM",
+    "status": "Done",
+    "wtd": "100%",
+    "description": "Lorem ipsum, lorem ipsum sit amet",
+    "botDue": "12-Feb-25",
+    "estDue": "30-Feb-25",
+    "estPds": 12,
+    "partner": "Rahul",
+    "partnerList": ["Yuvan", "Dhruv", "Sanskar", "Rahul"]
+    }
+  ],
+  "itData":[
+    {
+    "id": 1,
+    "status": "Active",
+    "assetNumber": "ASSET-001",
+    "assetType": "Laptop",
+    "location": "New York",
+    "allocatedTo": "John Doe",
+    "email": "johndoe@example.com",
+    "phoneNumber": "+1-123-456-7890",
+    "allocationList": ["John Doe", "Jane Smith", "Mike Johnson", "Emily Davis"]
+    },
+    {
+    "id": 2,
+    "status": "Inactive",
+    "assetNumber": "ASSET-002",
+    "assetType": "Desktop",
+    "location": "San Francisco",
+    "allocatedTo": "Jane Smith",
+    "email": "janesmith@example.com",
+    "phoneNumber": "+1-987-654-3210",
+    "allocationList": ["John Doe", "Jane Smith", "Mike Johnson", "Emily Davis"]
+    },
+    {
+    "id": 3,
+    "status": "Under Maintenance",
+    "assetNumber": "ASSET-003",
+    "assetType": "Printer",
+    "location": "Los Angeles",
+    "allocatedTo": "Mike Johnson",
+    "email": "mikejohnson@example.com",
+    "phoneNumber": "+1-555-123-4567",
+    "allocationList": ["John Doe", "Jane Smith", "Mike Johnson", "Emily Davis"]
+    },
+    {
+    "id": 4,
+    "status": "Active",
+    "assetNumber": "ASSET-004",
+    "assetType": "Projector",
+    "location": "Chicago",
+    "allocatedTo": "Emily Davis",
+    "email": "emilydavis@example.com",
+    "phoneNumber": "+1-666-789-0123",
+    "allocationList": ["John Doe", "Jane Smith", "Mike Johnson", "Emily Davis"]
+    }
+  ]
+  
+  }
